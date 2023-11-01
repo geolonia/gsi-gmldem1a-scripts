@@ -1,0 +1,28 @@
+{
+  "name": "gsi-gmldem1a-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "gsi-gmldem1a-to-geojson": "dist/gml-to-geojson.js"
+  },
+  "scripts": {
+    "gml-to-geojson": "ts-node src/gml-to-geojson.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/geojson": "^7946.0.12",
+    "@types/node": "^20.8.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.3.2",
+    "jismesh-js": "^0.2.0"
+  }
+}
