@@ -5,3 +5,4 @@ output.ndgeojson
 output.mbtiles
 output_*
 *.mbtiles
+tiles/

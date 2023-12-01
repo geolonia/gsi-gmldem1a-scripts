@@ -18,6 +18,7 @@
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
     "@types/geojson": "^7946.0.12",
+    "@types/mapbox__tile-cover": "^3.0.4",
     "@types/mapbox__tilebelt": "^1.0.4",
     "@types/node": "^20.8.10",
     "@types/pngjs": "^6.0.4",
@@ -25,7 +26,10 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@mapbox/tile-cover": "^3.0.2",
     "@mapbox/tilebelt": "^1.0.2",
+    "@turf/bbox": "^6.5.0",
+    "@turf/union": "^6.5.0",
     "fast-xml-parser": "^4.3.2",
     "jismesh-js": "^0.2.0",
     "pngjs": "^7.0.0"
