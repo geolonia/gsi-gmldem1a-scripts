@@ -6,3 +6,5 @@ output.mbtiles
 output_*
 *.mbtiles
 tiles/
+input/
+output/
