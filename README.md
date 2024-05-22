@@ -5,6 +5,7 @@
 * 地理院「基盤地図情報ダウンロードサービス」の「数値標高モデル」から該当地域のDEM1Aをダウンロードする。
 * GNU Parallel をインストールする `brew install parallel`
 * GDAL をインストールする `brew install gdal`
+* NPM パッケージをインストールする `npm install`
 
 ## 手順
 
