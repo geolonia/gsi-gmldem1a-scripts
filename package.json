@@ -13,8 +13,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Geolonia <dev@geolonia.com>",
+  "license": "MIT",
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
     "@types/geojson": "^7946.0.12",
